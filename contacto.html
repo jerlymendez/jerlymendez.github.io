@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipel</title>
+    <link rel="shortcut icon" href="imagenes/favicon.jpeg">
+    <link rel="stylesheet" type="text/css" href="estilosContacto.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="imagenes/logo.png" alt="Logo de la empresa" />
+      </div>
+      <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="product.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section id="contacto">
+      <div class="contact-info">
+        <h2>Contáctanos</h2>
+        <p>Teléfono: 313-842-8935</p>
+        <p>Correo electrónico: proyecrecipel_3@gmail.com</p>
+        
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31799.27401975818!2d-74.44661346523436!3d4.954748870781108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e409b689501b89f%3A0xc83427019a59295f!2sSasaima%2C%20Cundinamarca!5e0!3m2!1ses-419!2sco!4v1689618640132!5m2!1ses-419!2sco"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div id="map"></div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Formulario de contacto</h2>
+        <form>
+          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input type="tel" name="telefono" placeholder="Teléfono" required />
+          <input
+            type="email"
+            name="correo"
+            placeholder="Correo electrónico"
+            required
+          />
+          <input
+            type="text"
+            name="direccion"
+            placeholder="Dirección"
+            required
+          />
+          <input 
+          type="text"
+          name="sugerencias"
+          placeholder="Sugerencias"
+          required
+          />
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="imagenes/Logo.png" alt="Logo de la empresa" />
+        </div>
+        <div class="footer-info">
+          <p>"Tu <strong>PAPEL</strong> es reciclar"</p>
+          <p>Teléfono: 313-842-8935</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=100094528663160&mibextid=ZbWKwL" target="_blank"><img src="imagenes/fb.jfif" alt="Facebook" /></a>>
+          <a href="https://wa.me/573122579125" target="_blank"><img src="imagenes/wat.jfif" alt="whatsapp" /></a>
+          <a href="https://instagram.com/recipel_3?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank"><img src="imagenes/inst.jfif" alt="Instagram" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

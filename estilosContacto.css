@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+nav {
+    background-color: #00a550;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar li {
+    margin-left: 60px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.logo img {
+    width: 150px;
+    height: 120px;
+    margin-left: 30px;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+    font-size: larger;
+
+    
+}
+
+#quienes-somos {
+    padding: 50px;
+    text-align: center;
+}
+
+#contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+    
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    flex: 1;
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serifs;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form button {
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #00a550;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #00a550;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    
+}
+
+.footer-social img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
